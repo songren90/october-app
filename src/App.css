@@ -1,0 +1,119 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto 20px auto 25% auto;
+}
+
+header {
+  grid-column: 2 / span 8;
+  grid-row: 1/2;
+}
+
+aside {
+  grid-column: 2 / span 1;
+  grid-row: 3/4 ;
+  border: yellowgreen solid 2px;
+}
+
+space {
+  grid-column: 2/ span 8;
+  grid-row: 5/5;
+  border: black solid 2px;
+}
+
+main {
+  grid-column: 4/ span 6;  
+  grid-row: 3/4;
+  border: pink solid 2px;
+}
+
+footer {
+  grid-column: 2/ span 8;
+  grid-row-start: 4;
+  border: purple solid 2px;
+}
+
+
+.Artists {
+  /* animation: App-logo-spin 
+  infinite 0.2s linear; */
+  height: 15vmin;
+  /* width: 60vh; */
+}
+
+.fade-appear{
+  opacity: 0;
+}
+
+.fade-appear.fade-appear-active  {
+  opacity: 1;
+  transition: opacity 300ms linear;
+}
+
+.fade-exit{
+  opacity: 0;
+}
+
+.fade-exit.fade-exit-active{
+  opacity: 0;
+  transition: opacity 300ms linear;
+}
+
+.fade-exit-done{
+  opacity: 0;
+}
+
+.fade-enter{
+  opacity: 0;
+}
+
+.fade-enter.fade-enter-active{
+  opacity: 1;
+  transition: opacity 300ms linear;
+}
+
+
+
+
+
+
+
+
+
+.Border {
+  border: 10px solid blue 
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 200vh;
+  margin-left: 5%;
+  width: 30vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Big-box {
+  background-color: rgb(77, 73, 73);
+  width: 80%;
+  margin: 0 auto;
+  min-height: 200vh
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(14deg);
+  }
+}

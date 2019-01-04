@@ -1,0 +1,46 @@
+.Big-box {
+    background-color: rgb(77, 73, 73);
+    /* width: 80%; */
+    max-height: 20vh;
+    margin: 0 auto;
+    /* height: 50% */
+  }
+
+
+.App-header {
+    background-color: #60697a;
+    /* height: 30%; */
+    margin-left: 5%;
+    /* width: 30vmin; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* font-size: calc(10px + 2vmin); */
+    color: white;
+  }
+
+.New-box{
+    background-color: rgb(77, 73, 73);
+    /* width: 80%; */
+    /* max-height: 20vh; */
+    /* margin: 0 auto; */
+    /* height: 50% */ 
+}
+
+.New-header{
+    background-color: #60697a;
+    /* height: 30%; */
+    /* margin-left: 5%; */
+    /* width: 30vmin; */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-evenly;
+    /* font-size: calc(10px + 2vmin); */
+    color: white;
+}
+
+.Images{
+    max-height: 100px;
+    max-width: 150px;
+}
